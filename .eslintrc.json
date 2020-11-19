@@ -27,7 +27,7 @@
         "prettier/prettier": "error",
         "react/prop-types": "off",
         "object-curly-spacing": [2, "always"],
-        "indent": ["error", "tab"],
+        "indent": ["error", "tab", {"SwitchCase": 1}],
         "no-tabs": 0,
         "comma-dangle": ["error", "never"]
     }
