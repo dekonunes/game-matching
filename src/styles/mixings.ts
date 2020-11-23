@@ -1,3 +1,5 @@
+import { css } from 'styled-components';
+
 export const respond = (breakpoint: string, content: string): string => {
 	switch (breakpoint) {
 		case 'phone':
@@ -12,3 +14,10 @@ export const respond = (breakpoint: string, content: string): string => {
 			return '';
 	}
 };
+
+export const iconCSS = css`
+	flex-shrink: 0;
+	width: 30px;
+	height: 30px;
+	color: black;
+`;
