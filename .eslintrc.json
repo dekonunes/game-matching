@@ -24,11 +24,12 @@
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": "error",
         "react/prop-types": "off",
         "object-curly-spacing": [2, "always"],
         "indent": ["error", "tab", {"SwitchCase": 1}],
         "no-tabs": 0,
-        "comma-dangle": ["error", "never"]
+        "comma-dangle": ["error", "never"],
+        "linebreak-style": 0,
+        "prettier/prettier": 0
     }
 }
